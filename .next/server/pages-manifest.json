@@ -1,7 +1,8 @@
 {
-  "/": "pages/index.js",
-  "/sobre": "pages/sobre.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/sobre": "pages/sobre.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 
-function Sobre() {
+export default function Sobre() {
     return (
         <ul>
             <li>
