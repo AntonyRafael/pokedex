@@ -40,7 +40,11 @@ export default function Home(props) {
       </ul>
       <ul>
         {pokemons.map((pokemom) => (
-          <li key={pokemom.entry_number}>{pokemom.pokemon_species.name}</li>
+          <li key={pokemom.entry_number}>
+            <Link  href={`/pokemon/${pokemom.entry_number}`}>
+                <a>{pokemom.pokemon_species.name}</a> 
+            </Link>
+          </li>
         ))}
       </ul>
     </div>
